@@ -1,0 +1,3 @@
+E:\down\convert> ffmpeg -i input.m4a -c copy -f flac output.flac
+
+如果编码相同，只是改变封装，并且目标封装格式支持此编码器，那么，可以直接使用类似上述的代码进行无损的强制格式装换（以B站的HiRes模式下的M4A音轨转FLAC为例）。

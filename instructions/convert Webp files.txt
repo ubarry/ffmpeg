@@ -1,0 +1,3 @@
+ffmpeg can convert Webp files into others, for example:
+
+ffmpeg -i ied.webp ied.jpg

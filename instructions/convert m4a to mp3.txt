@@ -1,0 +1,11 @@
+ffmpeg -i input.m4a -y -acodec libmp3lame -aq 0 output.mp3
+
+-i          输入文件，这里指的就是视频文件。
+
+-y        表示无需询问，直接覆盖输出文件（如果有原文件的话）。
+
+-f         指定输出视频的格式。
+
+-acodec    指定音频编码格式。
+
+-aq 0，使用 lame 的0级压缩质量 。
